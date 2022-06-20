@@ -1,0 +1,218 @@
+
+#wrap{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto; 
+    background-color: rgb(152, 214, 229);
+}
+
+#header{
+    background-image: url(image/header.jpg); 
+    border-bottom-right-radius: 50px;
+    width: 730px;
+    height: 300px; 
+    margin: auto;
+    box-shadow:0 0 10px rgba(0,0,0,.25);
+    float: right;
+}
+
+#judul{
+    font-size: 32px;
+    text-align: right; 
+    padding: 200px 40px 0 0;
+}
+
+#judul a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#judul a:hover{ 
+    color: rgb(26, 82, 0);
+}
+
+.desc{
+    font-size: 30px;
+    text-align: right; 
+    padding: 0 40 0 0;
+}
+
+.desc a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.desc a:hover{
+    color: rgb(26, 82, 0);
+}
+
+#menu ul{
+    float: right;
+    background: rgb(5, 86, 4);
+    padding: 0px;
+    position: relative;
+    box-shadow:0 0 10px rgba(0,0,0,.25);
+    List-style: none;
+    width: 730px;
+}
+
+#menu ul:after{ 
+    content: "";
+    clear: both; 
+    display: block;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul li:hover{ 
+    background: rgb(188, 5, 115);
+}
+
+#menu ul li a{ 
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+}
+
+#menu ul ul{
+    background: rgb(139, 0, 0);
+    position: absolute;
+    padding: 0; 
+    top: 100%;
+    display: none;
+    width: auto;
+}
+
+#menu ul ul li{
+    float: none;
+    position: relative;
+}
+
+#menu ul ul li a{
+    padding: 10px 30px;
+    color: white;
+}
+
+#menu ul ul li a:hover{
+    background: rgb(188, 5, 115);
+    color: white;
+}
+
+#kiri{
+    border-top-Left-radius: 50px; 
+    background-color: rgb(193, 79, 8);
+    width: 250px; 
+    height: auto;
+    margin: 0 0 20px;
+    float: left;
+    List-style: none; 
+    box-shadow:0 0 10px rgba(0,0,0,.25);
+}
+
+#kiri ul{
+    margin: 0 0 20px 20px; 
+    padding: 0;
+    List-style: none; 
+    width: 200px;
+}
+
+#kiri li{
+    width: 100%; 
+    margin: 0;
+    padding: 0; 
+    List-style: none;
+}
+
+#kiri h2{
+    margin: 0px 0px 0;
+    padding: 5px 12px;
+    color: white;
+    font-size: 20px;
+    background: rgb(5, 86, 4);
+}
+
+#kiri a{
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: rgb(96, 0, 0);
+    border-bottom: 1px dotted rgb(240, 152, 10);
+}
+
+#kiri a:hover{
+    background: rgb(8, 1, 0);
+    color: white;
+}
+
+#konten{
+    height: auto;
+    background-color: rgb(135, 72, 4); 
+    width: 690px; 
+    float: right; 
+    box-shadow:0 0 10px rgba(0,0,0,.25);
+    margin: 0 0 20px; 
+    padding: 20px 20px 20px 20px;
+}
+
+.posttitle{
+    font-size: 30px;
+    text-decoration: none; 
+    font-family: Arial; 
+    color: rgb(87, 0, 0);
+}
+
+.posttitle a{
+    text-decoration: none;
+}
+
+.post{
+    margin: 0 20px 0 20px; 
+    text-align: justify;
+}
+
+.post img{
+    height: 40%; 
+    width:50%;
+}
+
+b a{
+    color: rgb(238, 255, 0); 
+    text-decoration: none;
+}
+
+img{
+    width: 30 ;
+}
+
+#logo{
+    width: 200px;
+    height: 200px
+}
+
+#footer {
+    background-color: rgb(59, 75, 1);
+    padding: 20px 0 0 0;
+    width: 1000px;
+    height: 90px;
+    clear: both;
+    margin: 20 0;
+    text-align: center;
+    color: white;
+    border-top-Left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
